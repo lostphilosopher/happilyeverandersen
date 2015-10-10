@@ -1,6 +1,15 @@
 /*
  * Utility CSS classes non-project specific
+   COLORS:
+   A4C37B - green
+   C0D8A1 - off green
+   D3D3D3 - light gray
  */
+
+body {
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+}
 
 .centered {
   margin-left: auto;
@@ -14,3 +23,45 @@
 .text-left {
   text-align: left;
 }
+
+.header-banner {
+  background: url('/assets/images/bw_park_path.jpg');
+  color: #A4C37B;
+}
+
+.alpha-banner {
+  background: url('/assets/images/misty_forest.jpeg');
+  color: #D3D3D3;
+}
+
+.beta-banner {
+  background-color: #A4C37B; 
+}
+
+.kappa-banner {
+  background-color: #D3D3D3;
+}
+
+.footer-banner {
+  background-color: #000000;
+  color: #FFFFFF;
+}  
+
+.comfy-padding {
+  padding: 40px 40px 40px 40px;
+}
+
+.img-logo {
+  width: 200px;
+  height: 200px;
+}
+
+.text-huge {
+  background-color: #D3D3D3;
+  font-size: 124px;
+  padding: 10px;
+}  
+
+.text-big {
+  font-size: 78px;
+}  

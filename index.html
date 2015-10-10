@@ -1,43 +1,97 @@
 ---
 layout: default
 ---
-<br />
-<div class="jumbotron">
-  <h1>JEKYLL SITE SKELETON</h1>
-  <div class="row">
-    <div class="col-sm-4">
-      <h2>Posts</h2>
-      <ul>
-        {% for post in site.posts %}
-        <li>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="col-sm-4">
-      <h2>INCLUDED:</h2>
-      <ul>
-        <li>Jekyll</li>
-        <li>jQuery</li>
-        <li>Bootstrap 3</li>
-        <li>Font Awesome</li>
-      </ul>
-    </div>
-    <div class="col-sm-4">
-      <h2>TESTS:</h2>
-      <ul>
-        <li>If there isn't a big grey background behind this text there is something wrong with the bootstrap installation.</li>
-        <li>If there isn't a check mark here (<i class="fa fa-check"></i>) there is something wrong with the font awesome installation.</li>
-        <li>If "Toggle (Show/Hide)" doesn't toggle text below the button when clicked there is something wrong with the JS installation.</li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <h2>JS Demo</h2>
-    <button id="utility-js-demo-button">Toggle (Show/Hide)</button>
-    <div id="utility-js-demo-target" style="display: none">Toggled!</div>
+<div class='header-banner'>
+  <div class='comfy-padding'>
+    <h1 class='text-huge text-center'>
+      <div class='hidden-xs'>
+        Wyatt Andersen
+        <br />
+        & Caitlin Gadel
+      </div>
+      <div class='visible-xs'>
+        WC
+      </div>
+    </h1>
   </div>
 </div>
+<div class='beta-banner'>
+  <div class='comfy-padding'>
+    <h2 class='text-big'>
+      Venues:
+    </h2>
+    <div class='text-center'>
+      <strong>
+        <a href='https://www.radissonblu.com/reservation/itineraryEntrance.do?pacLink=Y&promoCode=GA0416&hotelCode=MPLS_DT'>
+          Radission Blu Minneapolis
+        </a>
+      </strong>
+      <br />
+      35 South Seventh Street
+      <br />
+      Minneapolis, MN 55402
+      <br />
+      <br />
+      (612) 339-4900
+      <br />
+      <I>
+        We have a block reserved, ask for Gadel Andersen Wedding
+      </I>
+      <hr>
 
-<img src="/assets/images/lorem-ipsum.jpg" class="img-responsive"/>
+      <strong>
+        <a href='http://www.paxchristi.com/'>
+          Pax Christi
+        </a>
+      </strong>
+      <br />
+      12100 Pioneer Trail
+      <br />
+      Eden Prairie, MN 55347
+      <br />
+      <br />
+      (952) 941-3150
+      <hr>
+
+      <strong>
+        <a href='http://www.masonsmn.com/'>
+          Masons
+        </a>
+      </strong>
+      <br />
+      528 Hennepin Ave
+      <br />
+      Minneapolis, MN 55403
+      <br />
+      <br />
+      (612) 516-3344
+      <hr>
+
+    </div>
+  </div>
+</div>
+<div class='alpha-banner comfy-margins'>
+  <div class='comfy-padding'>
+    <h2 class='text-big'>
+      Registries:
+    </h2>
+  </div>
+  <div class='container'>
+    <div class='row text-center'>
+      <div class='col-sm-4'>
+        <img src='/assets/images/macys_logo.jpg' class='img-logo'/>
+      </div>
+      <div class='col-sm-4'>
+        <img src='/assets/images/target_logo.png' class='img-logo'/>
+      </div>
+      <div class='col-sm-4'>
+        <img src='/assets/images/amazon_logo.svg' class='img-logo'/>
+      </div>
+    </div>
+  </div>
+  <br />
+</div>
+<div class='footer-banner text-center'>
+  #everafterandersen
+</div>
+
