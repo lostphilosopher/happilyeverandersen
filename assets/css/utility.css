@@ -35,7 +35,7 @@ body {
 }
 
 .beta-banner {
-  background-color: #A4C37B; 
+  background-color: #A4C37B;
 }
 
 .kappa-banner {
@@ -45,7 +45,11 @@ body {
 .footer-banner {
   background-color: #000000;
   color: #FFFFFF;
-}  
+}
+
+.default-bg-color {
+  background-color: #D3D3D3;
+}
 
 .comfy-padding {
   padding: 40px 40px 40px 40px;
@@ -60,8 +64,8 @@ body {
   background-color: #D3D3D3;
   font-size: 124px;
   padding: 10px;
-}  
+}
 
 .text-big {
   font-size: 78px;
-}  
+}
