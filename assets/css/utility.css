@@ -25,12 +25,14 @@ body {
 }
 
 .header-banner {
-  background: url('/assets/images/bw_park_path.jpg');
+  background: url('/assets/images/bw_right_path_facing.jpg');
+  background-size: 100%;
   color: #A4C37B;
 }
 
 .alpha-banner {
-  background: url('/assets/images/misty_forest.jpeg');
+  background: url('/assets/images/color_centered_wine.jpg');
+  background-size: 100%;
   color: #D3D3D3;
 }
 
@@ -61,7 +63,7 @@ body {
 }
 
 .text-huge {
-  background-color: #D3D3D3;
+
   font-size: 124px;
   padding: 10px;
 }
