@@ -27,13 +27,19 @@ body {
 .header-banner {
   background: url('/assets/images/bw_right_path_facing.jpg');
   background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #A4C37B;
 }
 
 .alpha-banner {
   background: url('/assets/images/color_centered_wine.jpg');
   background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;   
   color: #D3D3D3;
+  background-color: #000000;
 }
 
 .beta-banner {
