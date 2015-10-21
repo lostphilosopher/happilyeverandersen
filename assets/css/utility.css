@@ -36,7 +36,7 @@ body {
 }
 
 .alpha-banner {
-  background: url('/assets/images/color_centered_wine.jpg');
+  background: url('/assets/images/bw_centered_medrangewine.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -66,19 +66,14 @@ body {
   padding: 40px 40px 40px 40px;
 }
 
-.img-logo {
-  width: 200px;
-  height: 200px;
-}
-
-.space-top {
-  margin-top: 500px;
-  background-color: #D3D3D3;
-}	
+.big-space {
+  margin-top: 600px;
+}  
 
 .text-huge {
   font-size: 124px;
   padding: 10px;
+  max-width: 1000px;
 }
 
 .text-big {
