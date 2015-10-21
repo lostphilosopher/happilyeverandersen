@@ -9,6 +9,9 @@
 body {
   font-family: 'Poiret One', cursive;
   font-size: 24px;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .centered {
@@ -68,12 +71,16 @@ body {
   height: 200px;
 }
 
-.text-huge {
+.space-top {
+  margin-top: 500px;
+  background-color: #D3D3D3;
+}	
 
+.text-huge {
   font-size: 124px;
   padding: 10px;
 }
 
 .text-big {
-  font-size: 78px;
+  font-size: 64px;
 }
