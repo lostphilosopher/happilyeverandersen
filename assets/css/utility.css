@@ -40,7 +40,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: bottom;   
+  background-position: bottom;
   color: #D3D3D3;
   background-color: #000000;
 }
@@ -68,18 +68,18 @@ body {
 
 .sm-space {
   margin-top: 200px;
-}  
+}
 
 .space {
   margin-top: 300px;
-}  
+}
 
 .big-space {
   margin-top: 600px;
-}  
+}
 .bigger-space {
   margin-top: 700px;
-}  
+}
 
 .text-huge {
   font-size: 124px;
@@ -89,4 +89,8 @@ body {
 
 .text-big {
   font-size: 64px;
+}
+
+.text-md {
+  font-size: 44px;
 }
