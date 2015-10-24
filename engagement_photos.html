@@ -3,9 +3,9 @@ layout: default
 images: [
   [
     'KeelyJoyPhotoCR010bw.jpg',
-    'KeelyJoyPhotoCR017.jpg',
+    'KeelyJoyPhotoCR085.jpg',
     'KeelyJoyPhotoCR018.jpg',
-    'KeelyJoyPhotoCR020.jpg'
+    'KeelyJoyPhotoCR086.jpg'
   ],
   [
     'KeelyJoyPhotoCR027.jpg',
@@ -14,16 +14,16 @@ images: [
     'KeelyJoyPhotoCR043.jpg'
   ],
   [
-    'KeelyJoyPhotoCR071.jpg',
+    'KeelyJoyPhotoCR083bw.jpg',
     'KeelyJoyPhotoCR072.jpg',
-    'KeelyJoyPhotoCR077bw.jpg',
-    'KeelyJoyPhotoCR081.jpg'
+    'KeelyJoyPhotoCR020.jpg',
+    'KeelyJoyPhotoCR087bw.jpg'
   ],
   [
-    'KeelyJoyPhotoCR083bw.jpg',
-    'KeelyJoyPhotoCR085.jpg',
-    'KeelyJoyPhotoCR086.jpg',
-    'KeelyJoyPhotoCR087bw.jpg'
+    'KeelyJoyPhotoCR071.jpg',
+    'KeelyJoyPhotoCR057.jpg',
+    'KeelyJoyPhotoCR077bw.jpg',
+    'KeelyJoyPhotoCR081.jpg'
   ]
 ]
 ---
@@ -40,12 +40,18 @@ images: [
         {% include nav.html %}
       </div>
     </div>
+    <div class='row'>
+    <div id='countdown' class="text-md text-center" style='background-color: #000000; color: #FFFFFF;'>&nbsp;</div>
+    </div>
+
     {% for set in page.images %}
       <div class='row'>
         {% for img in set %}
           <div class='col-sm-3'>
             <div style='padding: 10px 0px'>
-              <img src='/assets/images/engagement-photos/{{img}}' class='img img-responsive' />
+              <a href='/assets/images/engagement-photos/{{img}}'>
+                <img src='/assets/images/engagement-photos/{{img}}' class='img img-responsive' />
+              </a>
             </div>
           </div>
         {% endfor %}
