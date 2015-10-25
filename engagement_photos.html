@@ -1,4 +1,8 @@
 ---
+title: Engagement Photos | Andersen Gadel Wedding | April 30th, 2016
+description: >
+  Engagment photos for Wyatt Andersen and Caitlin Gadel.
+  To be married April 30th, 2016 at Pax Christi, reception at Mason's to follow.
 layout: default
 images: [
   [
@@ -27,38 +31,32 @@ images: [
   ]
 ]
 ---
-<div class='container kappa-banner'>
-    <div class='row beta-banner'>
-      <div class='col-sm-10 col-sm-offset-1 text-center'>
-        <h1 class='text-big hidden-xs hidden-sm'>
-          Engagement Photos
-        </h1>
-        <h1 class='text-md visible-xs visible-sm'>
-          Engagement Photos
-        </h1>
-        <a href='http://www.keelyjoyphotography.com/' target='_blank'>Photos by Keely Joy Photography</a>
-        {% include nav.html %}
-      </div>
-    </div>
-    <div class='row'>
-    <div id='countdown' class="text-md text-center" style='background-color: #000000; color: #FFFFFF;'>&nbsp;</div>
-    </div>
+<div class='primary-background text-center comfy-padding'>
+  <h1 class='text-big hidden-xs hidden-sm'>
+    Engagement Photos
+  </h1>
+  <h1 class='text-md visible-xs visible-sm'>
+    Engagement Photos
+  </h1>
+  <a href='http://www.keelyjoyphotography.com/' target='_blank'>Photos by Keely Joy Photography</a>
+</div>
 
-    {% for set in page.images %}
-      <div class='row'>
-        {% for img in set %}
-          <div class='col-sm-3'>
-            <div style='padding: 10px 0px'>
-              <a href='/assets/images/engagement-photos/{{img}}'>
-                <img src='/assets/images/engagement-photos/{{img}}' class='img img-responsive' />
-              </a>
-            </div>
-          </div>
-        {% endfor %}
+<div id='countdown' class='text-md text-center countdown'>&nbsp;</div>
+
+<div class='default-background text-center'>
+  {% include nav.html %}
+</div>
+
+{% for set in page.images %}
+  <div class='row default-background'>
+    {% for img in set %}
+      <div class='col-sm-3'>
+        <div class='photo-padding'>
+          <a href='/assets/images/engagement-photos/{{img}}'>
+            <img src='/assets/images/engagement-photos/{{img}}' class='img img-responsive' />
+          </a>
+        </div>
       </div>
     {% endfor %}
   </div>
-  <div class='footer-banner text-center'>
-    #everafterandersen
-  </div>
-</div>
+{% endfor %}

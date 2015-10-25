@@ -9,9 +9,13 @@
 body {
   font-family: 'Poiret One', cursive;
   font-size: 24px;
-  max-width: 1920px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #D3D3D3;
+}
+
+.content {
+  max-width: 1920px;
 }
 
 .centered {
@@ -32,24 +36,24 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: #D3D3D3;
   color: #A4C37B;
 }
 
-.alpha-banner {
+.sub-footer-banner {
   background: url('/assets/images/bw_centered_medrangewine.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
-  color: #D3D3D3;
   background-color: #000000;
+  color: #D3D3D3;
 }
 
-.beta-banner {
+.primary-background {
   background-color: #A4C37B;
 }
-
-.kappa-banner {
+.default-background {
   background-color: #D3D3D3;
 }
 
@@ -58,8 +62,16 @@ body {
   color: #FFFFFF;
 }
 
-.default-bg-color {
-  background-color: #D3D3D3;
+.max-width-1000 {
+  max-width: 1000px;
+}
+
+.photo-padding {
+  padding: 10px 0px;
+}
+
+.gentle-padding {
+  padding: 10px;
 }
 
 .comfy-padding {
@@ -77,14 +89,13 @@ body {
 .big-space {
   margin-top: 600px;
 }
+
 .bigger-space {
   margin-top: 700px;
 }
 
 .text-huge {
   font-size: 124px;
-  padding: 10px;
-  max-width: 1000px;
 }
 
 .text-big {
@@ -93,4 +104,9 @@ body {
 
 .text-md {
   font-size: 44px;
+}
+
+.countdown {
+  background-color: #000000;
+  color: #FFFFFF;
 }
