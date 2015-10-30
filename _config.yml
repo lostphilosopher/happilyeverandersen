@@ -9,6 +9,7 @@ url: "http://www.happilyeverandersen.com/" # the base hostname & protocol for yo
 # Open Graph Data:
 og_type: "website"
 og_image: "assets/images/engagement-photos/KeelyJoyPhotoCR018.jpg"
+og_url: "http://www.happilyeverandersen.com/"
 
 twitter_username: wandersen02
 github_username:  lostphilosopher
