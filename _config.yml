@@ -6,6 +6,10 @@ description: >
   To be married April 30th, 2016 at Pax Christi, reception at Mason's to follow.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.happilyeverandersen.com/" # the base hostname & protocol for your site
+# Open Graph Data:
+og_type: "website"
+og_image: "assets/images/engagement-photos/KeelyJoyPhotoCR018.jpg"
+
 twitter_username: wandersen02
 github_username:  lostphilosopher
 
