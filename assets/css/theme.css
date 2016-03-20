@@ -114,3 +114,7 @@ body {
   background-color: #000000;
   color: #FFFFFF;
 }
+
+.hr-no-margin-bottom {
+  margin-bottom: -20px;
+}
