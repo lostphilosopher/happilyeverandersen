@@ -1,0 +1,40 @@
+---
+title: Photos of Wyatt and Caitlin's cat - Monneypenny! | Moneypenny Fan Club | Andersen Gadel
+description: >
+  Pictures of Moneypenny (the cat). Wyatt and Caitlin's cat as of June 2017. #MoneypennyFanClub
+og_url: "http://www.happilyeverandersen.com/moneypennyfanclub.html"
+layout: default
+---
+
+<div class='primary-background text-center comfy-padding'>
+  <h1 class='text-big hidden-xs hidden-sm'>
+    Moneypenny Fan Club
+  </h1>
+  <h1 class='text-md visible-xs visible-sm'>
+    Moneypenny Fan Club
+  </h1>
+</div>
+
+<div class='default-background text-center'>
+  {% include nav.html %}
+</div>
+
+{% for i in (1..32) %}
+  {% assign mod = i | modulo: 4 %}
+  {% if mod == 1 %}
+    <div class='row default-background'>
+  {% endif %}
+
+    <div class='col-sm-3'>
+      <div class='photo-padding'>
+        <a href='/assets/images/moneypenny-fan-club-photos/{{i}}.jpg'>
+          <img src='/assets/images/moneypenny-fan-club-photos/{{i}}.jpg' class='img img-responsive full-width' alt="Wyatt and Caitlin's cat Moneypenny"/>
+        </a>
+      </div>
+    </div>
+
+  {% if mod == 0 %}
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
